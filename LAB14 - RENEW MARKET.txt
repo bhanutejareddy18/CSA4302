@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ReNewMarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>♻️ ReNewMarket</h1>
+
+<!-- Login -->
+<h2>Login</h2>
+
+<input type="text" id="username" placeholder="Username">
+<input type="password" id="password" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<p id="loginMsg"></p>
+
+<hr>
+
+<!-- User Management -->
+
+<h2>User Management</h2>
+
+<button onclick="addUser()">Add User</button>
+
+<div id="users"></div>
+
+<hr>
+
+<!-- Category Management -->
+
+<h2>Category Management</h2>
+
+<button onclick="addCategory()">Add Category</button>
+
+<div id="categories"></div>
+
+<hr>
+
+<!-- Commodity Management -->
+
+<h2>Commodity Management</h2>
+
+<button onclick="addCommodity()">Add Commodity</button>
+
+<div id="commodities"></div>
+
+<hr>
+
+<!-- Order Management -->
+
+<h2>Order Management</h2>
+
+<div id="orders"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

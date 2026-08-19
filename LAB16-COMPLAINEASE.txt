@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ComplainEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>ComplainEase</h1>
+
+<!-- USER -->
+
+<h2>User</h2>
+
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+<button onclick="userLogin()">Login</button>
+<button onclick="registerUser()">Register</button>
+
+<br><br>
+
+<textarea id="complaint" placeholder="Enter Complaint"></textarea><br>
+
+<input type="text" id="location" placeholder="Google Map Location">
+
+<br><br>
+
+<button onclick="postComplaint()">Post Complaint</button>
+
+<button onclick="viewStatus()">View Status</button>
+
+<button onclick="feedback()">Feedback</button>
+
+<button onclick="contact()">Admin Contact</button>
+
+<div id="userResult"></div>
+
+<hr>
+
+<!-- OFFICER -->
+
+<h2>Officer</h2>
+
+<input type="text" id="officer" placeholder="Officer Name">
+<button onclick="officerLogin()">Login</button>
+
+<br><br>
+
+<button onclick="viewComplaint()">View Complaint</button>
+
+<button onclick="updateStatus()">Update Status</button>
+
+<button onclick="proof()">Upload Proof</button>
+
+<div id="officerResult"></div>
+
+<hr>
+
+<!-- ADMIN -->
+
+<h2>Admin</h2>
+
+<button onclick="generate()">Generate Officer ID</button>
+
+<button onclick="createAccount()">Create Account</button>
+
+<button onclick="deleteAccount()">Delete Account</button>
+
+<button onclick="viewAccounts()">View Accounts</button>
+
+<button onclick="changePassword()">Change Password</button>
+
+<button onclick="hideFeature()">Hide Feature</button>
+
+<div id="adminResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

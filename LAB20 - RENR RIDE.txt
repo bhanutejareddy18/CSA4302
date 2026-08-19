@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RentRide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚗 RentRide</h1>
+
+<!-- USER -->
+
+<h2>User</h2>
+
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+
+<button onclick="registerUser()">Register</button>
+<button onclick="loginUser()">Login</button>
+
+<br><br>
+
+<button onclick="searchVehicle()">Search Vehicle</button>
+<button onclick="viewVehicle()">View Vehicle Details</button>
+<button onclick="bookVehicle()">Book Vehicle</button>
+<button onclick="reservation()">My Reservation</button>
+<button onclick="history()">Rental History</button>
+<button onclick="payment()">Payment</button>
+<button onclick="support()">Customer Support</button>
+
+<div id="userResult"></div>
+
+<hr>
+
+<!-- ADMIN -->
+
+<h2>Admin</h2>
+
+<button onclick="addVehicle()">Add Vehicle</button>
+<button onclick="updateVehicle()">Update Vehicle</button>
+<button onclick="deleteVehicle()">Delete Vehicle</button>
+<button onclick="viewBookings()">View Bookings</button>
+<button onclick="confirmBooking()">Confirm Booking</button>
+
+<div id="adminResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

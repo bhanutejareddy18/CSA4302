@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriMart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌾 AgriMart</h1>
+
+<!-- FARMER -->
+
+<h2>Farmer</h2>
+
+<input type="text" id="farmer" placeholder="Farmer Name">
+<input type="password" id="fpass" placeholder="Password">
+
+<button onclick="farmerLogin()">Login</button>
+<button onclick="registerFarmer()">Register</button>
+<button onclick="otp()">OTP Verification</button>
+
+<br><br>
+
+<button onclick="addProduct()">Add Product</button>
+<button onclick="updateProduct()">Update Product</button>
+<button onclick="deleteProduct()">Delete Product</button>
+<button onclick="uploadImage()">Upload Image</button>
+<button onclick="sales()">My Sales</button>
+<button onclick="shipping()">Shipping Status</button>
+
+<div id="farmerResult"></div>
+
+<hr>
+
+<!-- PUBLIC -->
+
+<h2>Public</h2>
+
+<input type="text" id="customer" placeholder="Customer Name">
+<input type="password" id="cpass" placeholder="Password">
+
+<button onclick="customerLogin()">Login</button>
+<button onclick="registerCustomer()">Register</button>
+<button onclick="customerOTP()">OTP Verification</button>
+
+<br><br>
+
+<button onclick="wallet()">Wallet Balance</button>
+<button onclick="viewProduct()">View Products</button>
+<button onclick="searchProduct()">Search Product</button>
+<button onclick="cart()">Add to Cart</button>
+<button onclick="address()">Shipping Address</button>
+<button onclick="order()">Order Product</button>
+<button onclick="orderStatus()">Order Status</button>
+<button onclick="track()">Shipping Status</button>
+
+<div id="customerResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

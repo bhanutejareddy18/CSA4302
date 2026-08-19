@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VetCure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>VetCure</h1>
+
+<!-- USER -->
+
+<h2>User</h2>
+
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+
+<button onclick="registerUser()">Register</button>
+<button onclick="loginUser()">Login</button>
+
+<br><br>
+
+<button onclick="postComplaint()">Post Complaint</button>
+<button onclick="complaintStatus()">Complaint Status</button>
+<button onclick="viewCure()">View VetCure Details</button>
+<button onclick="viewNews()">View News</button>
+<button onclick="viewDoctor()">View Doctor</button>
+<button onclick="viewReport()">View Report</button>
+<button onclick="feedback()">Feedback</button>
+<button onclick="payment()">Make Payment</button>
+<button onclick="profile()">My Profile</button>
+
+<div id="userResult"></div>
+
+<hr>
+
+<!-- DOCTOR -->
+
+<h2>Doctor</h2>
+
+<input type="text" id="doctor" placeholder="Doctor Name">
+
+<button onclick="registerDoctor()">Register</button>
+<button onclick="loginDoctor()">Login</button>
+
+<br><br>
+
+<button onclick="viewComplaint()">View Complaint</button>
+<button onclick="postSolution()">Post Solution</button>
+<button onclick="manageCure()">Manage Cure</button>
+<button onclick="manageNews()">Manage News</button>
+<button onclick="userDetails()">User Details</button>
+<button onclick="paymentDetails()">Payment Details</button>
+<button onclick="feedbackDetails()">Feedback Details</button>
+
+<div id="doctorResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

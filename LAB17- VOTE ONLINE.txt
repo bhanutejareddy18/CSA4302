@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VoteOnline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>VoteOnline</h1>
+
+<!-- USER -->
+
+<h2>Voter Login</h2>
+
+<input type="text" id="voterId" placeholder="Enter Voter ID">
+<button onclick="login()">Login</button>
+
+<br><br>
+
+<button onclick="getOTP()">Get OTP</button>
+
+<input type="text" id="otp" placeholder="Enter OTP">
+
+<button onclick="verifyOTP()">Verify OTP</button>
+
+<hr>
+
+<h2>Select Candidate</h2>
+
+<select id="candidate">
+    <option>Candidate A</option>
+    <option>Candidate B</option>
+    <option>Candidate C</option>
+</select>
+
+<button onclick="submitVote()">Submit Vote</button>
+
+<div id="userResult"></div>
+
+<hr>
+
+<!-- ADMIN -->
+
+<h2>Admin</h2>
+
+<button onclick="createCandidate()">Create Candidate</button>
+
+<button onclick="allocateElection()">Allocate Election Data</button>
+
+<button onclick="allocateWard()">Allocate Ward</button>
+
+<button onclick="createVoterList()">Create Voter List</button>
+
+<button onclick="importVoterList()">Import Voter List</button>
+
+<button onclick="viewVoterList()">View Voter List</button>
+
+<button onclick="result()">Election Result</button>
+
+<div id="adminResult"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

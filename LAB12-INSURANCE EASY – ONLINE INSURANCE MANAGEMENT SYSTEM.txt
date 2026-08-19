@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsureEasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>InsureEasy</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="policy.html">Policies</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <h1>Welcome to InsureEasy</h1>
+
+    <p>Compare and manage your insurance policies easily.</p>
+
+    <a href="login.html" class="btn">Get Started</a>
+
+</section>
+
+<section class="services">
+
+    <div class="card">
+        <h3>Health Insurance</h3>
+        <p>Affordable health plans for your family.</p>
+    </div>
+
+    <div class="card">
+        <h3>Vehicle Insurance</h3>
+        <p>Protect your car and bike with ease.</p>
+    </div>
+
+    <div class="card">
+        <h3>Home Insurance</h3>
+        <p>Secure your home against unexpected losses.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 InsureEasy</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

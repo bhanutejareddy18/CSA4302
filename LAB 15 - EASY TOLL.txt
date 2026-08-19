@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EasyToll</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>EasyToll Payment System</h1>
+
+<h2>Login</h2>
+
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<hr>
+
+<h2>User</h2>
+
+<button onclick="addMoney()">Add Money</button>
+<button onclick="buyTicket()">Buy Toll eTicket</button>
+<button onclick="applyPass()">Apply Toll Pass</button>
+
+<div id="wallet"></div>
+
+<hr>
+
+<h2>Admin</h2>
+
+<button onclick="approvePass()">Approve Toll Pass</button>
+<button onclick="generateQR()">Generate QR Code</button>
+<button onclick="createToll()">Create Toll</button>
+
+<div id="admin"></div>
+
+<hr>
+
+<h2>Toll Gate User</h2>
+
+<button onclick="scanQR()">Scan QR</button>
+<button onclick="verifyPass()">Verify Toll Pass</button>
+<button onclick="updateLocation()">Update Toll Location</button>
+
+<div id="gate"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

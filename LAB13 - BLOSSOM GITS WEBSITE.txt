@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BlossomGifts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌸 BlossomGifts</h1>
+
+<h2>Categories</h2>
+<div id="categories">
+    <button>Flowers</button>
+    <button>Gift Baskets</button>
+    <button>Personalized Gifts</button>
+</div>
+
+<h2>Sub Categories</h2>
+<ul>
+    <li>Birthday Flowers</li>
+    <li>Anniversary Flowers</li>
+    <li>Chocolate Basket</li>
+    <li>Teddy Bears</li>
+</ul>
+
+<h2>Products</h2>
+
+<div id="productList"></div>
+
+<h2>Customer Checkout</h2>
+
+<input type="text" id="customerName" placeholder="Customer Name">
+<button onclick="checkout()">Checkout</button>
+
+<h3>Customer Details</h3>
+<div id="customerInfo"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
